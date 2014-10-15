@@ -7,8 +7,7 @@
 
 @media (max-width: 767px) {
 	#overflow-area {
-		max-height:initial;
-		max-height:auto;
+		max-height:none;
 		overflow:visible;
 	}
 }
