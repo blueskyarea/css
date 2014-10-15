@@ -1,0 +1,14 @@
+#overflow-area {
+	width:200px;
+	max-height:100px;
+	overflow:auto;
+	margin:30px;
+}
+
+@media (max-width: 767px) {
+	#overflow-area {
+		max-height:initial;
+		max-height:auto;
+		overflow:visible;
+	}
+}
